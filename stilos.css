@@ -18,6 +18,17 @@
 {
   width: 300px;
 }
+.nav__link--inside:hover
+{
+  background: #f6f8fa;
+}
+.Nav__link
+{
+color: #303440;
+display: block;
+padding: 15px 0;
+text-decoration: none;
+}
 
 .lista
 {
@@ -35,5 +46,33 @@
   list-style: none;
   width: 100%;
   text-align: center;
+  overflow: hidden;
+}
 
+.List__item--click
+{
+  cursor: pointer;
+}
+.List__button
+{
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  width: 70%;
+  margin: 0 auto;
+}
+.list__arrow
+{
+  margin-left: auto;
+  height: 10%;
+  width: 10%;
+}
+.list__show
+{
+  width: 80%;
+  margin-left: auto;
+  border-left: 2px solid #303440;
+  list-style: none;
+  transition: height .4s;
+  height: 0;
 }
