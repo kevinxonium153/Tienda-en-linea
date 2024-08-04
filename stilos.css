@@ -10,3 +10,30 @@
       background: #856868;
       font-family: sans-serif;
       }
+.list__img{
+            width: 35px;
+            height: 35px;
+            }
+.nav
+{
+  width: 300px;
+}
+
+.lista
+{
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 0 16px 16px 0;
+  background: white;
+}
+
+.List__item
+{
+  list-style: none;
+  width: 100%;
+  text-align: center;
+
+}
